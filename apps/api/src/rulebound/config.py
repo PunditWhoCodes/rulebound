@@ -9,7 +9,7 @@ class Settings(BaseSettings):
 
     env: str = "local"
     database_url: SecretStr = SecretStr(
-        "postgresql+asyncpg://rulebound:rulebound@localhost:5432/rulebound"
+        "postgresql+asyncpg://rulebound:rulebound@localhost:5442/rulebound"
     )
     log_level: str = "INFO"
 
