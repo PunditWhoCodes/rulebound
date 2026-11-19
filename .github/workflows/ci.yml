@@ -30,7 +30,7 @@ jobs:
       RULEBOUND_DATABASE_URL: postgresql+asyncpg://rulebound:rulebound@localhost:5432/rulebound
     steps:
       - uses: actions/checkout@v7
-      - uses: astral-sh/setup-uv@v10
+      - uses: astral-sh/setup-uv@v10.3.3
         with:
           version: "0.11.28"
           enable-cache: true
